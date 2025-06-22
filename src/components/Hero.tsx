@@ -1,9 +1,16 @@
 import React from 'react';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight,Play } from 'lucide-react';
 
 const Hero = () => {
   const scrollToContact = () => {
     const element = document.getElementById('contact');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const scrollToDemo = () => {
+    const element = document.getElementById('demo-video');
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
@@ -52,11 +59,13 @@ const Hero = () => {
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
               
-              {/* Watch Demo button commented out for now */}
-              {/* <button className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg hover:border-emerald-500 hover:text-emerald-600 transition-all flex items-center justify-center font-medium text-lg group">
+              <button
+                onClick={scrollToDemo}
+                className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg hover:border-emerald-500 hover:text-emerald-600 transition-all flex items-center justify-center font-medium text-lg group"
+              >
                 <Play className="mr-2 w-5 h-5" />
                 Watch Demo
-              </button> */}
+              </button>
             </div>
             
             {/* Stats */}

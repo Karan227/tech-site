@@ -6,6 +6,8 @@ import Features from './components/Features';
 import WhyFoodSafety from './components/WhyFoodSafety';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import DemoVideo from './components/DemoVideo';
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <DemoVideo />
         <About />
         <Features />
         <WhyFoodSafety />
