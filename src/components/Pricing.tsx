@@ -1,27 +1,35 @@
 import React from 'react';
-import { Check, Shield, Wifi, Smartphone, Users, Clock, MessageCircle, Wrench } from 'lucide-react';
+import { Check, Shield, Wifi, Smartphone, Users, Clock, MessageCircle, Wrench, FileText, AlertTriangle, CheckSquare, Truck } from 'lucide-react';
 
 const Pricing = () => {
   const withSensorsFeatures = [
     "5 EU-certified temperature sensors",
     "1 WiFi + SIM-enabled Gateway", 
     "Web + App Dashboard Access",
+    "Temperature monitoring & alerts",
+    "Smart checklists & compliance tools",
+    "Allergen management system",
+    "Delivery tracking & logging",
+    "HACCP reporting & documentation",
     "Free onboarding & remote setup",
-    "24/7 monitoring & alerts",
     "Staff visit during onboarding",
-    "Live chat, phone & email support",
+    "24/7 live chat, phone & email support",
     "Fast sensor replacements"
   ];
 
   const withoutSensorsFeatures = [
-    "Web + App Dashboard Access",
-    "LoRaWAN-certified sensor support",
-    "Real-time monitoring & alerts", 
+    "Smart checklists & task management",
+    "Allergen information system", 
+    "Incident reporting & tracking",
+    "HACCP compliance plans & documentation",
+    "Delivery management & logging",
+    "Staff training & certification tracking",
+    "Audit preparation & reporting tools",
+    "Multi-location management dashboard",
     "Free onboarding & setup guidance",
     "Live chat, phone & email support",
-    "Custom sensor configuration",
-    "Multi-location management",
-    "Compliance reporting tools"
+    "Custom workflow configuration",
+    "Compliance reporting & analytics"
   ];
 
   return (
@@ -110,9 +118,9 @@ const Pricing = () => {
           <div className="bg-white rounded-3xl shadow-xl overflow-hidden">
             <div className="p-8">
               <div className="flex items-center justify-between mb-6">
-                <h3 className="text-2xl font-bold text-gray-900">Without Sensors</h3>
+                <h3 className="text-2xl font-bold text-gray-900">Platform Only</h3>
                 <div className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
-                  BYOD
+                  Software Only
                 </div>
               </div>
               
@@ -120,10 +128,17 @@ const Pricing = () => {
                 <div className="flex items-center justify-between p-6 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg border border-blue-200">
                   <div>
                     <span className="text-gray-700 block">Monthly platform fee</span>
-                    <span className="text-sm text-blue-600">(Bring your own LoRaWAN sensors)</span>
+                    <span className="text-sm text-blue-600">(Complete food safety management)</span>
                   </div>
                   <span className="text-3xl font-bold text-blue-700">£35<span className="text-sm font-normal">/month</span></span>
                 </div>
+              </div>
+
+              <div className="mb-6">
+                <h4 className="font-semibold text-gray-900 mb-4 flex items-center">
+                  <FileText className="w-5 h-5 mr-2 text-blue-600" />
+                  Core Food Safety Features:
+                </h4>
               </div>
 
               <ul className="space-y-3 mb-8">
@@ -134,6 +149,19 @@ const Pricing = () => {
                   </li>
                 ))}
               </ul>
+
+              <div className="bg-blue-50 rounded-lg p-4 mb-6 border border-blue-200">
+                <div className="flex items-center mb-2">
+                  <AlertTriangle className="w-5 h-5 text-blue-600 mr-2" />
+                  <span className="font-medium text-blue-900">Perfect for:</span>
+                </div>
+                <ul className="text-sm text-blue-700 space-y-1">
+                  <li>• Existing sensor infrastructure</li>
+                  <li>• Manual temperature logging</li>
+                  <li>• Compliance-focused operations</li>
+                  <li>• Multi-location management</li>
+                </ul>
+              </div>
 
               <button className="w-full border-2 border-blue-500 text-blue-600 py-4 rounded-lg hover:bg-blue-50 transition-all font-medium">
                 Start Platform Only
