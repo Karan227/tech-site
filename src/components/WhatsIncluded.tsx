@@ -12,9 +12,9 @@ const WhatsIncluded = () => {
     },
     {
       icon: Wifi,
-      title: "1 WiFi + SIM Gateway",
-      description: "Dual connectivity gateway ensuring reliable data transmission at all times",
-      badge: "Dual Connectivity",
+      title: "1 WiFi Gateway",
+      description: "WiFi-enabled gateway ensuring reliable data transmission at all times",
+      badge: "WiFi Connectivity",
       color: "from-blue-500 to-cyan-500"
     },
     {

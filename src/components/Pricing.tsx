@@ -4,7 +4,7 @@ import { Check, Shield, Wifi, Smartphone, Users, Clock, MessageCircle, Wrench, F
 const Pricing = () => {
   const withSensorsFeatures = [
     "5 EU-certified temperature sensors",
-    "1 WiFi + SIM-enabled Gateway", 
+    "1 WiFi-enabled Gateway", 
     "Web + App Dashboard Access",
     "Temperature monitoring & alerts",
     "Smart checklists & compliance tools",
@@ -23,13 +23,10 @@ const Pricing = () => {
     "Incident reporting & tracking",
     "HACCP compliance plans & documentation",
     "Delivery management & logging",
-    "Staff training & certification tracking",
     "Audit preparation & reporting tools",
-    "Multi-location management dashboard",
     "Free onboarding & setup guidance",
     "Live chat, phone & email support",
-    "Custom workflow configuration",
-    "Compliance reporting & analytics"
+    "Custom workflow configuration"
   ];
 
   return (
@@ -156,10 +153,8 @@ const Pricing = () => {
                   <span className="font-medium text-blue-900">Perfect for:</span>
                 </div>
                 <ul className="text-sm text-blue-700 space-y-1">
-                  <li>• Existing sensor infrastructure</li>
                   <li>• Manual temperature logging</li>
                   <li>• Compliance-focused operations</li>
-                  <li>• Multi-location management</li>
                 </ul>
               </div>
 
