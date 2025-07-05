@@ -79,8 +79,8 @@ const Hero = () => {
                 <div className="text-sm text-gray-600">Monitoring</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-gray-900 mb-1">1000+</div>
-                <div className="text-sm text-gray-600">Customers</div>
+                <div className="text-3xl font-bold text-gray-900 mb-1">100%</div>
+                <div className="text-sm text-gray-600">Audit Ready</div>
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@ const Hero = () => {
           <div className="relative">
             <div className="bg-white rounded-2xl shadow-2xl p-8 transform rotate-2 hover:rotate-0 transition-transform duration-500">
               <img 
-                src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg" 
+                src="dsahboard.jpg" 
                 alt="Chef using tablet in modern kitchen"
                 className="w-full h-80 object-cover rounded-lg"
               />

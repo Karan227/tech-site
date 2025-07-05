@@ -30,14 +30,10 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="relative">
-              <div className="w-10 h-10 bg-gradient-to-br from-emerald-500 to-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">V</span>
-              </div>
-              <div className="absolute -right-1 -bottom-1 w-4 h-4 bg-gradient-to-br from-blue-600 to-emerald-500 rounded flex items-center justify-center">
-                <span className="text-white font-bold text-xs">X</span>
+              <div className="flex items-center justify-center">
+                <img src="/logo2.png" alt="Vigilix Logo"  className="w-25 h-12"/>
               </div>
             </div>
-            <span className="text-2xl font-bold text-gray-800">Vigilix</span>
           </div>
 
           {/* Desktop Navigation */}

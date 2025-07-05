@@ -7,14 +7,14 @@ const DemoVideo = () => (
       <iframe
         width="100%"
         height="100%"
-        src="https://www.youtube.com/embed/nf0f-iZpqEc?si=nyG1Allp2VkNQ1Cg"
+        src="https://www.youtube.com/embed/SsFRx-3Jv60?si=-i7mi86gX4Ejkio8"
         title="YouTube video player"
         frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerPolicy="strict-origin-when-cross-origin"
         allowFullScreen
       ></iframe>
-    </div>
+      </div>
   </section>
 );
 
